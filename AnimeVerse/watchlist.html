@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeVerse | Watchlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="watchlist">
+
+<header class="navbar">
+    <div class="container nav-inner">
+        <a href="index.html" class="logo">Anime<span>Verse</span></a>
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="explore.html">Explore</a>
+            <a href="trending.html">Trending</a>
+            <a href="watchlist.html" class="active">Watchlist</a>
+            <a href="about.html">About</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <section class="page-header">
+        <span class="eyebrow">YOUR PERSONAL COLLECTION</span>
+        <h1>My Watchlist ❤️</h1>
+        <p>
+            Your favourite anime, all in one place.
+            Saved titles: <strong id="watchlistCount">0</strong>
+        </p>
+    </section>
+
+    <section class="section">
+        <div class="anime-grid" id="watchlistAnime"></div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        © 2026 AnimeVerse. All rights reserved.
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

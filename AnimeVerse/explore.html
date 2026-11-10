@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeVerse | Explore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="explore">
+
+<header class="navbar">
+    <div class="container nav-inner">
+        <a href="index.html" class="logo">Anime<span>Verse</span></a>
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="explore.html" class="active">Explore</a>
+            <a href="trending.html">Trending</a>
+            <a href="watchlist.html">Watchlist</a>
+            <a href="about.html">About</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <section class="page-header">
+        <span class="eyebrow">DISCOVER SOMETHING NEW</span>
+        <h1>Explore Anime</h1>
+        <p>Search through our anime collection and find your next adventure.</p>
+    </section>
+
+    <input
+        type="text"
+        id="animeSearch"
+        class="search-box"
+        placeholder="🔍 Search anime by name..."
+    >
+
+    <div class="filters">
+        <button class="filter-btn active" data-genre="All">All</button>
+        <button class="filter-btn" data-genre="Action">Action</button>
+        <button class="filter-btn" data-genre="Adventure">Adventure</button>
+        <button class="filter-btn" data-genre="Fantasy">Fantasy</button>
+        <button class="filter-btn" data-genre="Romance">Romance</button>
+        <button class="filter-btn" data-genre="Comedy">Comedy</button>
+        <button class="filter-btn" data-genre="Drama">Drama</button>
+        <button class="filter-btn" data-genre="Mystery">Mystery</button>
+        <button class="filter-btn" data-genre="Sports">Sports</button>
+    </div>
+
+    <section class="section">
+        <div class="anime-grid" id="exploreAnime"></div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        © 2026 AnimeVerse. All rights reserved.
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
